@@ -1,0 +1,64 @@
+body{
+  background-color:#33BBFF;
+  font-family: 'Droid Serif', serif;
+}
+h1{
+  color:white;
+  font-family: 'Lobster', cursive;
+  font-size:8em;
+}
+
+.quote-pad{
+  background-color:#FFF;
+  width:50em;
+  height:auto;
+  margin:5em auto 1em auto;
+  padding-bottom:1em;
+  color:#33BBFF;
+  border-radius:.7em;
+}
+
+@media (min-width: 100px)and (max-width: 800px) {
+  .quote-pad{
+    background-color:#FFF;
+  width:35em;
+  height:auto;
+  margin:3em auto 1em auto;
+  color:#33BBFF;
+  border-radius:.5em;
+  padding-bottom:1em;
+  }
+}
+
+.quote-area{
+  margin-top:3em;
+}
+
+.post1{
+  margin-left:2em;
+  color:#33BBFF;
+}
+
+.quote{
+  margin-right:2em;
+  float:right;
+  color:#33BBFF;
+}
+
+#author{
+  padding-right:1em;
+  font-size:1.2em;
+}
+
+#text{
+  font-size:2em;
+}
+
+.sign{
+  font-size:2em;
+}
+
+.left{
+  float:left;
+  margin-left:2em;
+}
